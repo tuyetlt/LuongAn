@@ -1785,14 +1785,11 @@ header .show_search_content {
     display: flex;
     align-items: center;
 }
-    .list-cate-side .item-filter label{
-        font-size:14px;
-        font-size:14px;
-    }
-    .breadcrumb-item > a {
-        color: #004ebd;
-        font-size: 18px;
-    }
+.list-cate-side .item-filter label{
+    font-size:14px;
+    font-size:14px;
+}
+
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: #004ebd;
@@ -2049,10 +2046,6 @@ header .show_search_content {
     background-color: #ced4da;
 }
 
-.heading .heading__title span {
-    color: #005c99;
-}
-
 .navigation__categories {
     background: #004ebd;
 }
@@ -2065,60 +2058,14 @@ header .show_search_content {
     color: #000;
 }
 
-.header .header__contact .contact-no:before {
-    color: #004ebd;
-}
 
 .header .header__cart > .btn-cart #cart-total {
     background-color: #004ebd;
     color: #fff;
 }
 
-.header .header__search .btn {
-    color: #004ebd;
-}
-
 .header .header__search .btn:hover {
     color: #fff;
-}
-
-.btn-primary {
-    --bs-btn-color: #000;
-    --bs-btn-bg: #4a90e2;
-    --bs-btn-border-color: #4a90e2;
-    --bs-btn-hover-color: #000;
-    --bs-btn-hover-bg: #f8a43f;
-    --bs-btn-hover-border-color: #f89f34;
-    --bs-btn-focus-shadow-rgb: 210,126,25;
-    --bs-btn-active-color: #000;
-    --bs-btn-active-bg: #f9a94a;
-    --bs-btn-active-border-color: #f89f34;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
-    --bs-btn-disabled-color: #000;
-    --bs-btn-disabled-bg: #b86966;
-    --bs-btn-disabled-border-color: #b86966;
-}
-
-.btn-primary:hover, .btn-primary:active {
-    border-color: #005c99;
-    background-color: #005c99;
-    color: #fff;
-}
-
-.product__name a:hover {
-    color: #004ebd;
-}
-
-.footer__top {
-    background-color: #5798e4;
-}
-
-.footer__support {
-    background-color: #005c99;
-}
-
-.footer__inner ul li a:hover, a:hover, .navigation__categories .navigation__menu .nav-link:hover {
-    color: #005c99;
 }
 
 .social__link:hover {
@@ -2229,14 +2176,9 @@ header .show_search_content {
     padding-top: 0;
 }
 
-    .header__search .dropdown-menu ul .img {
-        flex: 0 0 20px;
-        margin-right: 5px;
-    }
-
-
-.product__special-topPage__inner {
-    background-color: #cc4242;
+.header__search .dropdown-menu ul .img {
+    flex: 0 0 20px;
+    margin-right: 5px;
 }
 
 .product__description h3, product__description h4, product__description h5 {

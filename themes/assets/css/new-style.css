@@ -1,0 +1,81 @@
+﻿.navigation {
+    background: #b86966;
+}
+.navigation__categories {
+    background: #a45d5a;
+}
+.header .header__contact .contact-no:before {
+    color: #b86966;
+}
+.header .header__cart > .btn-cart #cart-total {
+    background-color: #b86966;
+}
+.heading__title::before, .heading__title::after {
+    background-color: #b86966;
+}
+.heading .heading__title span{
+color:#000;
+}
+.header .header__search .btn {
+    color: #b86966;
+}
+.btn-primary:hover, .btn-primary:active {
+    background: #b7403b;
+    border-color: #b7403b;
+}
+.footer__inner ul li a:hover, a:hover, .navigation__categories .navigation__menu .nav-link:hover {
+    color: #b86966;
+    border-color: #b86966;
+}
+.product__name a:hover {
+    color: #b7403b;
+}
+.btn-primary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #b86966;
+    --bs-btn-border-color: #b86966;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #f8a43f;
+    --bs-btn-hover-border-color: #f89f34;
+    --bs-btn-focus-shadow-rgb: 210, 126, 25;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #f9a94a;
+    --bs-btn-active-border-color: #f89f34;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #b86966;
+    --bs-btn-disabled-border-color: #b86966;
+}
+.footer__top {
+    background-color: #f7941d;
+}
+.footer__support {
+    background-color: #f7941d;
+}
+.breadcrumb-item > a {
+    color: #cb443f;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #cb443f;
+}
+.product__detail .product__support-title {
+    background-color: #b86966;
+}
+.btn-outline-primary {
+    --bs-btn-color: #da251c;
+    --bs-btn-border-color: #da251c;
+}
+.product__detail .btn:hover {
+    background-color: #e23934;
+    border-color: #da251c;
+}
+.product__wrapper .show-more .btn-see-more {
+    background-color: #f7941d;
+}
+    .product__wrapper .show-more .btn-see-more:hover {
+        background: #cb8837;
+    }
+.tags__item:hover, .tags__item.active {
+    background-color: #f7941d;
+    border-color: #f7941d;
+}
