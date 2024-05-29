@@ -2722,6 +2722,7 @@ public static class PageUtility
         PageUtility.Viewport(page);
         PageUtility.AddCssLink(page, "/themes/assets/css/bootstrap.min.css", false);
         PageUtility.AddCssLink(page, "/themes/assets/css/custom.css", true);
+        PageUtility.AddCssLink(page, "/themes/assets/css/new-style.css", true);
         if (!string.IsNullOrEmpty(ConfigWeb.Style))
             PageUtility.AddCssLink(page, "/themes/assets/css/" + ConfigWeb.Style, false);
         PageUtility.AddScriptLink(page, "/themes/assets/js/jquery/jquery-3.6.3.min.js", false);
